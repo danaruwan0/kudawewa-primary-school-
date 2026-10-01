@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Abhaya";
+    src: url("./assets/fonts/Abhaya.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html[lang="si"] body {
+    font-family: "Abhaya", serif;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #ffffff;
+    color: #1e293b;
+}
+
+html[lang="si"] body {
+    font-family: "Abhaya", serif;
+}
+
+html[lang="si"] h1,
+html[lang="si"] h2,
+html[lang="si"] h3,
+html[lang="si"] h4,
+html[lang="si"] h5,
+html[lang="si"] h6 {
+    font-family: "Abhaya", serif;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+section {
+    scroll-margin-top: 150px;
+}
