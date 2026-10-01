@@ -1,5 +1,5 @@
 import "./navbar.css";
-import schoolLogo from "./../../assets/logo.jpeg";
+import schoolLogo from "../../assets/logo.png";
 
 import React, { useState } from "react";
 
